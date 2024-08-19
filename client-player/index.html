@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>PLAYER</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<h1>Player Registration</h1>
+
+		<form id="player-form">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required />
+
+			<fieldset>
+				<legend>What item are you gonna choose?:</legend>
+				<label>
+					<input type="radio" name="item" value="Rock" required style="display: none" />
+					<img
+						src="https://www.pngall.com/wp-content/uploads/5/Stone-PNG-High-Quality-Image.png"
+						alt="Rock"
+						class="selectable-item"
+					/>
+				</label>
+				<label>
+					<input type="radio" name="item" value="Paper" style="display: none" />
+					<img
+						src="https://static.vecteezy.com/system/resources/previews/009/340/335/non_2x/white-crumpled-paper-balls-for-design-element-png.png"
+						alt="Paper"
+						class="selectable-item"
+					/>
+				</label>
+				<label>
+					<input type="radio" name="item" value="Scissors" style="display: none" />
+					<img src="https://pngimg.com/d/scissors_PNG10.png" alt="Scisors" class="selectable-item" />
+				</label>
+			</fieldset>
+
+			<button type="submit">Create Player</button>
+		</form>
+
+		<div id="data-container"></div>
+
+		<script src="index.js"></script>
+	</body>
+</html>

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background: linear-gradient(135deg, #7f4a7c 0%, #4c5d8a 100%);
+	color: #e94560;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 40px 20px;
+	min-height: 100vh;
+	margin: 0;
+}
+
+h1 {
+	color: #ffffff;
+	font-size: 2.5em;
+	text-shadow: 2px 2px 4px rgba(196, 55, 158, 0.542);
+	margin-bottom: 30px;
+}
+
+form {
+	background-color: rgba(255, 255, 255, 0.1);
+	padding: 30px;
+	border-radius: 15px;
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(4px);
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	max-width: 500px;
+	width: 100%;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+	color: #ffffff;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+input[type='text'] {
+	width: 350px;
+	padding: 12px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 8px;
+	background-color: rgba(255, 255, 255, 0.1);
+	color: #fff;
+	font-size: 16px;
+}
+
+fieldset {
+	border: none;
+	padding: 0;
+	margin-bottom: 30px;
+}
+
+legend {
+	font-weight: 100;
+	margin-bottom: 15px;
+	color: #ffffff;
+	margin-bottom: 30px;
+}
+
+.selectable-item {
+	width: 120px;
+	height: 120px;
+	object-fit: contain;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	margin: 0 10px 20px;
+	background-color: rgba(255, 255, 255, 0.1);
+	padding: 10px;
+}
+
+input[type='radio']:checked + .selectable-item {
+	box-shadow: 0 0 25px 5px #812267;
+	transform: scale(1.1);
+}
+
+button {
+	background-color: #812267;
+	color: white;
+	padding: 12px 24px;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: 600;
+	transition: all 0.3s ease;
+	display: block;
+	width: 100%;
+	margin-top: 20px;
+}
+
+button:hover {
+	background-color: #6f1156;
+	transform: translateY(-3px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#data-container {
+	margin-top: 30px;
+	background-color: rgba(255, 255, 255, 0.1);
+	padding: 20px;
+	border-radius: 15px;
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(4px);
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	max-width: 500px;
+	width: 100%;
+	color: #fff;
+}
