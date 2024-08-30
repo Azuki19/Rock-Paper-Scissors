@@ -12,6 +12,30 @@ body {
 	margin: 0;
 }
 
+
+button {
+	background-color: #812267;
+	color: white;
+	padding: 12px 24px;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: 600;
+	transition: all 0.3s ease;
+	display: block;
+	width: 300px;
+	height: 60px;
+	margin-bottom: 50px;
+}
+
+button:hover {
+	background-color: #6f1156;
+	transform: translateY(-3px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
 h1 {
 	color: #ffffff;
 	font-size: 2.5em;
@@ -38,7 +62,7 @@ section p {
 #seconds {
 	font-size: 2em;
 	font-weight: bold;
-	color: #b9a856;
+	color: #fff0a7;
 
 	text-shadow: 2px 2px 4px rgba(196, 55, 158, 0.542);
 
